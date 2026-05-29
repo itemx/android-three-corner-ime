@@ -1,0 +1,61 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Kotlin
+.kotlin/
+
+# Local configuration file (contains absolute paths and SDK location)
+local.properties
+
+# Proguard / R8
+*.hprof
+
+# Log files
+*.log
+captures/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystores and signing
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Claude Code local settings
+.claude/settings.local.json

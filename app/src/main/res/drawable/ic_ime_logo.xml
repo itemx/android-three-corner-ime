@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Triangle shape representing "三角" -->
+    <path
+        android:pathData="M24,8 L40,38 L8,38 Z"
+        android:fillColor="#1976D2" />
+    <!-- Number "3" in the center -->
+    <path
+        android:pathData="M20,22 Q20,18 24,18 Q28,18 28,22 Q28,25 24,25 Q28,25 28,28 Q28,32 24,32 Q20,32 20,28"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+</vector>
