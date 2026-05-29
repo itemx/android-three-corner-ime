@@ -26,8 +26,8 @@ Android 上的三角編號（3Corner）中文輸入法。每個字對應一組�
 需要 Android Studio（含 JDK 21）或本機 JDK 21 + Android SDK 35。
 
 ```bash
-git clone https://github.com/<your-handle>/three-corner-ime.git
-cd three-corner-ime
+git clone https://github.com/itemx/android-three-corner-ime.git
+cd android-three-corner-ime
 ./gradlew assembleDebug
 ```
 
