@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "tw.i3x.threecornerime"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "tw.i3x.threecornerime"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0.0"
     }

@@ -7,6 +7,8 @@ import android.provider.Settings
 import android.widget.LinearLayout
 import android.widget.Button
 import android.widget.TextView
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 
 class SettingsActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +17,12 @@ class SettingsActivity : Activity() {
         val layout = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             setPadding(48, 48, 48, 48)
+        }
+
+        ViewCompat.setOnApplyWindowInsetsListener(layout) { v, insets ->
+            val b = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(b.left + 48, b.top + 48, b.right + 48, b.bottom + 48)
+            insets
         }
 
         layout.addView(TextView(this).apply {
