@@ -3,7 +3,7 @@
 Android 上的三角編號（3Corner）中文輸入法。每個字對應一組六位數字編碼，輸入後從候選列選字。
 
 - **Min SDK**：24（Android 7.0+）
-- **Target SDK**：35（Android 15）
+- **Target SDK**：36（Android 16）
 - **語言**：Kotlin
 - **UI**：Jetpack Compose + Material 3
 - **字碼表**：32,913 筆（涵蓋常用漢字與大量罕字）
